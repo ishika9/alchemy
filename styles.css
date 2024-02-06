@@ -1,0 +1,89 @@
+#hero{
+    height: 550px;
+    /* background-image: url("images/bg/pink_perfumes.jpeg"); */
+    /* opacity: 0.8; */
+    /* background-position: center; */
+    /* background-size: cover; */
+    /* margin-top: 40px; */
+}
+
+#bg{
+    position: absolute;
+    width: 100%;
+    height: 550px;
+    opacity: 0.7;
+    object-fit: cover;
+}
+
+#hero_content{
+    width: 650px;
+    background-color: rgb(11, 11, 28, 0.85);
+    box-shadow: 10px 10px 60px rgb(255, 73, 158);
+    border-radius: 8px;
+    text-align: center;
+    padding: 3.125rem 0;
+    margin: 0 auto;
+    position: relative;
+    top: 8.56rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+#hero_content h1{
+    opacity: 1;
+    font-weight: bolder;
+    margin-left: 1rem;
+}
+
+#hero_content p{
+    opacity: 1;
+    color: rgb(213, 216, 236);
+    padding: 0.75rem 1.5px;
+    margin-left: 1rem;
+}
+#hero_content a{
+    text-transform: uppercase;
+    font-size: x-small;
+    border-color: rgb(255, 73, 158);
+    border-style:solid;
+    color: rgb(250, 250, 255);
+    padding: 7px 14px;
+    box-shadow: 3px 3px 15px rgb(255, 73, 158);
+}
+#hero_content a:hover{
+    border-style:groove;
+    color: rgb(255, 73, 158);
+    box-shadow: -3px -3px 15px rgb(255, 73, 158);
+
+}
+
+#picc{
+    margin-right: 5px;
+    border-radius: 125px;
+}
+
+#highlights{
+    padding: 20px;;
+    /* margin: 10px; */
+    background: linear-gradient(180deg, rgb(11, 11, 28), rgb(196, 144, 197));
+}
+
+#highlights h1{
+    text-align: center;
+}
+
+#essentials{
+    display: flex;
+    justify-content: space-between;
+}
+
+.essential img{
+    height: 200px;
+}
+.essential h3{
+    margin: 0px;
+}
+.essential {
+    padding: 5px;
+    margin: 0% 4%;
+}

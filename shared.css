@@ -1,0 +1,81 @@
+body{
+    font-family: 'Merriweather Sans', sans-serif;
+    margin:0;
+    color: rgb(213, 216, 236);
+    background-color:rgb(11, 11, 28);
+    /* background: linear-gradient(180deg, rgb(11, 11, 28), rgb(196, 144, 197)); */
+
+}
+
+h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: xx-large;
+    color: rgb(240, 248, 255);
+    text-shadow: 5px 5px 10px rgb(135, 206, 250);
+    /* color: rgb(255, 73, 158); */
+}
+
+a{
+    text-decoration: none;
+    color: rgb(213, 216, 236);
+}
+header a:hover{
+    text-shadow: 5px 5px 10px rgb(135, 206, 250);
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    padding: 15px 60px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    /* position: fixed; */
+    height: 4.1rem;
+width: 100%;
+box-sizing: border-box;
+}
+
+#page-logo a{
+    padding: 10px;
+    font-family: 'Italiana', sans-serif;
+    color: rgb(196, 144, 197);
+    /* color: rgb(255, 73, 158); */
+    font-size: 1.88rem;
+    text-decoration: none;
+}
+
+header ul{
+    display: flex;
+    justify-content: flex-end;
+}
+header li{
+    margin-left: 1.25rem;
+}
+
+footer{
+    background-color: rgb(11, 11, 28);
+    border-top: 1px solid rgb(255, 73, 158);
+}
+
+#footie {
+    display: flex;
+    justify-content: center;
+}
+#footie li{
+    width: 30px;
+    height: 30px;
+    margin: 10px 30px;
+    padding: 10px;
+}
+#footie img{
+    width: 100%;
+    height: auto;
+}
+#footie a:hover{
+    box-shadow: -3px -3px 15px rgb(255, 73, 158);
+}

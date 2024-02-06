@@ -1,0 +1,43 @@
+header{
+    /* position: fixed; */
+    margin-bottom: 40px;
+}
+/* main li{
+    width: 500px;
+} */
+main li img{
+    width: 300px;
+    height: auto;
+}
+
+main ul{
+    width: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px 20px 20px;
+}
+
+body{
+    background: linear-gradient(180deg, rgb(11, 11, 28), rgb(196, 144, 197));
+}
+
+main a{
+    display: flex;
+    text-shadow: none;
+    padding: 20px;
+}
+
+.type{
+    color: rgb(255, 73, 158);
+}
+
+.desc{
+    display: none;
+}
+
+main a:hover .desc{
+    display: inline;
+}
+main a:hover .type{
+    display: none;
+}
